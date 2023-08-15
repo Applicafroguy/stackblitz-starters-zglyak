@@ -76,8 +76,8 @@ var dd = {
             { text: 'Postal', style: 'tableHeader' },
           ],
             [
-            { text: ['31166 Hela Street\n', 'Cape Town, Strand\n', '7140'], rowSpan: 2},
-            { text: ['31166 Hela Street\n', 'Cape Town, Strand\n', '7140'], rowSpan: 2},
+            { text: ['31166 Hela Street\n', 'Cape Town\n','Strand\n', '7140'], rowSpan: 2},
+            { text: ['31166 Hela Street\n', 'Cape Town\n','Strand\n', '7140'], rowSpan: 2},
           ],
            [
             {},
