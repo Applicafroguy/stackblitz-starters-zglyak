@@ -114,7 +114,7 @@ var dd = {
       },
       
     },
-        { text: 'Benefitiary', style: 'subheader' },
+        { text: 'Benefitiary', style: 'subheader',pageBreak: 'before' },
         {
       style: 'tableExample',
       table: {
@@ -149,7 +149,129 @@ var dd = {
         ],
       },
     },
-    
+     { text: 'Members', style: 'subheader', },
+     { text: 'Children (Age: 0 – 21 years)', style: 'smallheader', },
+     {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'Zimasa Magutywa', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'D.O.B', style: 'tableHeader' },
+            { text: '20 June 2010' },
+             { text: 'ID Number', style: 'tableHeader' },
+            { text: '201028827731' },
+          ],
+          [
+            { text: 'Gender', style: 'tableHeader' },
+            { text: 'Female' },
+             { text: 'Language', style: 'tableHeader' },
+            { text: 'IsiXhosa' },
+          ],
+          [
+         
+             { text: 'Relationship', style: 'tableHeader' },
+            { text: 'Father', colSpan: 3 },
+            {},{}
+          ]
+        ],
+      },
+     },
+     {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'David Magutywa', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'D.O.B', style: 'tableHeader' },
+            { text: '13 March 2012' },
+             { text: 'ID Number', style: 'tableHeader' },
+            { text: '201228827731' },
+          ],
+          [
+            { text: 'Gender', style: 'tableHeader' },
+            { text: 'Male' },
+             { text: 'Language', style: 'tableHeader' },
+            { text: 'IsiXhosa' },
+          ],
+          [
+         
+             { text: 'Relationship', style: 'tableHeader' },
+            { text: 'Father', colSpan: 3 },
+            {},{}
+          ]
+        ],
+      },
+     },
+       { text: 'Senior Family Members (Age: 65 – 84 years)', style: 'smallheader2', },
+     {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'Lungelo Magutywa', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'D.O.B', style: 'tableHeader' },
+            { text: '20 May 1967' },
+             { text: 'ID Number', style: 'tableHeader' },
+            { text: '671028827731' },
+          ],
+          [
+            { text: 'Gender', style: 'tableHeader' },
+            { text: 'Female' },
+             { text: 'Language', style: 'tableHeader' },
+            { text: 'IsiXhosa' },
+          ],
+          [
+         
+             { text: 'Relationship', style: 'tableHeader' },
+            { text: 'Father', colSpan: 3 },
+            {},{}
+          ]
+        ],
+      },
+     },
+     {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'Marry Magutywa', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'D.O.B', style: 'tableHeader' },
+            { text: '13 July 1971' },
+             { text: 'ID Number', style: 'tableHeader' },
+            { text: '711228827731' },
+          ],
+          [
+            { text: 'Gender', style: 'tableHeader' },
+            { text: 'Male' },
+             { text: 'Language', style: 'tableHeader' },
+            { text: 'IsiXhosa' },
+          ],
+          [
+         
+             { text: 'Relationship', style: 'tableHeader' },
+            { text: 'Mother', colSpan: 3 },
+            {},{}
+          ]
+        ],
+      },
+     },
   ],
   styles: {
     header: {
@@ -161,6 +283,16 @@ var dd = {
       fontSize: 16,
       bold: true,
       margin: [0, 10, 0, 10],
+    },
+     smallheader: {
+      fontSize: 13,
+      bold: false,
+      margin: [0, 0, 0, 5],
+    },
+    smallheader2: {
+      fontSize: 13,
+      bold: false,
+      margin: [0, 5, 0, 5],
     },
     tableExample: {
       margin: [0, 5, 0, 15],
