@@ -69,14 +69,19 @@ var dd = {
       style: 'tableExample',
       table: {
         widths: ['*',  '*'],
+        headerRows: 3,
         body: [
           [
             { text: 'Residential', style: 'tableHeader' },
             { text: 'Postal', style: 'tableHeader' },
           ],
             [
-            { text: '31136 Hela Street' },
-            { text: '31166 Hela Street' },
+            { text: ['31166 Hela Street\n', 'Cape Town, Strand\n', '7140'], rowSpan: 2},
+            { text: ['31166 Hela Street\n', 'Cape Town, Strand\n', '7140'], rowSpan: 2},
+          ],
+           [
+            {},
+            {},
           ],
         ],
       },
