@@ -87,6 +87,41 @@ var dd = {
       },
       
     },
+        { text: 'Benefitiary', style: 'subheader' },
+        {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'Amanda Magutywa', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'D.O.B', style: 'tableHeader' },
+            { text: '20 June 1993' },
+             { text: 'ID Number', style: 'tableHeader' },
+            { text: '932128827731' },
+          ],
+          [
+            { text: 'Gender', style: 'tableHeader' },
+            { text: 'Female' },
+             { text: 'Race', style: 'tableHeader' },
+            { text: 'African' },
+          ],
+          [
+            { text: 'Language', style: 'tableHeader' },
+            { text: 'IsiXhosa' },
+             { text: 'Title', style: 'tableHeader' },
+            { text: 'Mrs' },
+          ],
+            [
+            { text: 'Relationship', style: 'tableHeader' },
+            { text: 'Spouse', colSpan: 3 },'', ''
+          ],
+        ],
+      },
+    },
   ],
   styles: {
     header: {
