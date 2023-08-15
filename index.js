@@ -62,6 +62,25 @@ var dd = {
           ],
         ],
       },
+      
+    },
+     { text: 'Address', style: 'subheader' },
+    {
+      style: 'tableExample',
+      table: {
+        widths: ['*',  '*'],
+        body: [
+          [
+            { text: 'Residential', style: 'tableHeader' },
+            { text: 'Postal', style: 'tableHeader' },
+          ],
+            [
+            { text: '31136 Hela Street' },
+            { text: '31166 Hela Street' },
+          ],
+        ],
+      },
+      
     },
   ],
   styles: {
