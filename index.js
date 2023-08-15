@@ -44,7 +44,7 @@ var dd = {
         ],
       },
     },
-    { text: 'Contact Details', style: 'header' },
+    { text: 'Contact Details', style: 'subheader' },
     {
       style: 'tableExample',
       table: {
@@ -66,14 +66,14 @@ var dd = {
   ],
   styles: {
     header: {
-      fontSize: 18,
+      fontSize: 16,
       bold: true,
       margin: [0, 0, 0, 10],
     },
     subheader: {
       fontSize: 16,
       bold: true,
-      margin: [0, 10, 0, 5],
+      margin: [0, 10, 0, 10],
     },
     tableExample: {
       margin: [0, 5, 0, 15],
