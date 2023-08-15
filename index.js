@@ -10,7 +10,7 @@ var dd = {
 
   content: [
     { text: 'Personal Details', style: 'header' },
-    {
+        {
       style: 'tableExample',
       table: {
         widths: [100, '*', 100, '*'],
@@ -41,6 +41,33 @@ var dd = {
             { text: 'Language', style: 'tableHeader' },
             { text: 'IsiXhosa', colSpan: 3 },'', ''
           ],
+        ],
+      },
+    },
+    { text: 'Policy Details', style: 'subheader' },
+    {
+      style: 'tableExample',
+      table: {
+        widths: [100, '*', 100, '*'],
+        body: [
+          [
+            { text: 'Name', style: 'tableHeader' },
+            { text: 'Family Plan', colSpan: 3 },'', ''
+          ],
+          [
+            { text: 'Coverage', style: 'tableHeader' },
+            { text: 'R 20 000.00' },
+             { text: 'Premium', style: 'tableHeader' },
+            { text: 'R 230.00' },
+          ],
+           [
+            { text: 'Description', style: 'tableHeader', colSpan:4 },
+            {},{},{}
+           ],
+           [
+           { text: 'G.S. (Under 65 Main Member + Family) @ 20K',  colSpan:4 },
+
+           ]
         ],
       },
     },
@@ -122,6 +149,7 @@ var dd = {
         ],
       },
     },
+    
   ],
   styles: {
     header: {
